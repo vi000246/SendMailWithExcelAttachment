@@ -1,7 +1,6 @@
 D:\Project\BillingDetailsReport\bin\Debug\BillingDetailsReport.exe.config
 D:\Project\BillingDetailsReport\bin\Debug\BillingDetailsReport.exe
 D:\Project\BillingDetailsReport\bin\Debug\BillingDetailsReport.pdb
-D:\Project\BillingDetailsReport\obj\Debug\BillingDetailsReport.csprojResolveAssemblyReference.cache
 D:\Project\BillingDetailsReport\obj\Debug\BillingDetailsReport.exe
 D:\Project\BillingDetailsReport\obj\Debug\BillingDetailsReport.pdb
 D:\Project\BillingDetailsReport\bin\Debug\Dapper.dll
@@ -9,3 +8,8 @@ D:\Project\BillingDetailsReport\bin\Debug\Dapper.xml
 D:\Project\BillingDetailsReport\bin\Debug\EPPlus.dll
 D:\Project\BillingDetailsReport\bin\Debug\EPPlus.xml
 D:\Project\BillingDetailsReport\bin\Debug\MySql.Data.dll
+D:\Project\BillingDetailsReport\bin\Debug\Newtonsoft.Json.dll
+D:\Project\BillingDetailsReport\bin\Debug\SendGrid.dll
+D:\Project\BillingDetailsReport\bin\Debug\Newtonsoft.Json.xml
+D:\Project\BillingDetailsReport\bin\Debug\SendGrid.pdb
+D:\Project\BillingDetailsReport\bin\Debug\SendGrid.xml

@@ -103,7 +103,7 @@ namespace BillingDetailsReport
                 }
 
             }
-
+            outputStream.Position = 0;
             return outputStream;
         }
     }

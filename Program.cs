@@ -13,8 +13,7 @@ namespace BillingDetailsReport
         {
             try
             {
-                //var list = new DB().GetBillingDataByGame("ML");
-                new ExcelGenerater().GenerateExcel();
+                new EmailGenerator().SendMail();
                 Console.Write("執行完畢");
             }
             catch (Exception ex) {
