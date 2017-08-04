@@ -16,11 +16,11 @@ namespace BillingDetailsReport
         public void SendMail() {
             using (SmtpClient mySmtp = new SmtpClient()) {
                 //設定smtp帳密
-                mySmtp.Credentials = new System.Net.NetworkCredential("6pEO1yyoRWel3mo45mo-BA", "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");
-                mySmtp.Port = 465;
-                mySmtp.Host = "smtp.sendgrid.net"; //SMTP主機名稱
+                mySmtp.Credentials = new System.Net.NetworkCredential("vi000246", "uish2014");
+                mySmtp.Port = 587;
+                mySmtp.Host = "smtp.gmail.com"; //SMTP主機名稱
                 mySmtp.DeliveryMethod = SmtpDeliveryMethod.Network;
-                mySmtp.UseDefaultCredentials = false;
+                //mySmtp.UseDefaultCredentials = false;
                 mySmtp.EnableSsl = true;    //開啟SSL驗證
                 //信件內容
                 string pcontect = ConfigurationManager.AppSettings["EmailContent"];
@@ -39,7 +39,9 @@ namespace BillingDetailsReport
                 }
 
                 //主旨
-                msgMail.Subject = ConfigurationManager.AppSettings["EmailTitle"];
+                string title = ConfigurationManager.AppSettings["EmailTitle"];
+                DateTime configDate = new Utility().GetConfigYearMonth();
+                msgMail.Subject = string.Format(title, configDate.ToString("yyyyMM"));
                 //信件內容(含HTML時)
                 AlternateView alt = AlternateView.CreateAlternateViewFromString(pcontect, null, "text/html");
                 msgMail.AlternateViews.Add(alt);

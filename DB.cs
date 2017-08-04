@@ -16,7 +16,7 @@ namespace BillingDetailsReport
     public class DB
     {
         //撈取儲值資料的SQL
-        private static readonly string SQLQuery = @"select TOP 10 L.OrderIdGN , L.OrderIdOther , L.GNId , L.OrderDate, L.OtherDate, L.AddGPDate
+        private static readonly string SQLQuery = @"select L.OrderIdGN , L.OrderIdOther , L.GNId , L.OrderDate, L.OtherDate, L.AddGPDate
                                                     , L.PayWay2
                                                     , Case L.PayWay2
                                                      when 'card_2' then '點卡-一般通路'
@@ -66,17 +66,18 @@ namespace BillingDetailsReport
         /// <returns></returns>
         public string GetGameNameById(string GameId) {
             string connectionString = ConfigurationManager.AppSettings["GameConnectionString"];
+            string GameName = string.Empty;
             try
             {
                 using (MySqlConnection conn = new MySqlConnection(connectionString))
                 {
-                    var result = conn.Query<string>(string.Format("SELECT subject FROM gnjoy.game where gametype='{0}'",GameId)).FirstOrDefault();
+                    GameName = conn.Query<string>(string.Format("SELECT subject FROM gnjoy.game where gametype='{0}'",GameId)).FirstOrDefault();
                 }
             }
             catch (Exception ex) {
                 throw ex;
             }
-            return null;
+            return GameName;
         }
 
     }
