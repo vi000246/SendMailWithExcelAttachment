@@ -11,7 +11,15 @@ namespace BillingDetailsReport
     {
         static void Main(string[] args)
         {
-            var list = new DB().GetBillingDataByGame("ML");
+            try
+            {
+                //var list = new DB().GetBillingDataByGame("ML");
+                new ExcelGenerater().GenerateExcel();
+                Console.Write("執行完畢");
+            }
+            catch (Exception ex) {
+                Console.Write(ex.Message);
+            }
             Console.ReadLine();
         }
     }

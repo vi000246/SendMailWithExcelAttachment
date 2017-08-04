@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Configuration;
 using Dapper;
+using MySql.Data.MySqlClient;
 
 namespace BillingDetailsReport
 {
@@ -15,7 +16,7 @@ namespace BillingDetailsReport
     public class DB
     {
         //撈取儲值資料的SQL
-        private static readonly string SQLQuery = @"select L.OrderIdGN , L.OrderIdOther , L.GNId , L.OrderDate, L.OtherDate, L.AddGPDate
+        private static readonly string SQLQuery = @"select TOP 10 L.OrderIdGN , L.OrderIdOther , L.GNId , L.OrderDate, L.OtherDate, L.AddGPDate
                                                     , L.PayWay2
                                                     , Case L.PayWay2
                                                      when 'card_2' then '點卡-一般通路'
@@ -40,30 +41,42 @@ namespace BillingDetailsReport
                                                           and DATEPART(month, L.OtherDate) = {1}
                                                           and L.BStatus = '1' and L.GameId ='{2}' 
                                                     order by L.TestFlag, L.UserCancelFg, L.PayWay2, L.OtherDate";
-
+        /// <summary>
+        /// 取得儲值的資料
+        /// </summary>
+        /// <param name="gameId"></param>
+        /// <returns></returns>
         public List<Model.BillingColumn> GetBillingDataByGame(string gameId) {
-            //取得config檔 指定撈取的月份
 
-            int year = 0;
-            if (!int.TryParse(ConfigurationManager.AppSettings["Year"], out year))
-                throw new ArgumentException("config中的year參數必須為數字");
-            int month = 0;
-            if (!int.TryParse(ConfigurationManager.AppSettings["Month"], out month))
-                throw new ArgumentException("config中的month參數必須為數字");
+            DateTime configDate = new Utility().GetConfigYearMonth();
 
-            //如果config檔沒指定年月 就預設撈取上個月的資料
-            if (year==0 && month==0) {
-                year = DateTime.Now.Year;
-                month = (DateTime.Now.Month - 1);
-            }
-
-            string connectionString = ConfigurationManager.AppSettings["ConnectionString"];
+            string connectionString = ConfigurationManager.AppSettings["BillingConnectionString"];
             List<Model.BillingColumn> result = new List<Model.BillingColumn>();
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                result = conn.Query<Model.BillingColumn>(string.Format(SQLQuery,year,month,gameId)).ToList();
+                result = conn.Query<Model.BillingColumn>(string.Format(SQLQuery,configDate.Year,configDate.Month,gameId)).ToList();
             }
             return result;
+        }
+
+        /// <summary>
+        /// 依據GameId取得遊戲名稱
+        /// </summary>
+        /// <param name="GameId"></param>
+        /// <returns></returns>
+        public string GetGameNameById(string GameId) {
+            string connectionString = ConfigurationManager.AppSettings["GameConnectionString"];
+            try
+            {
+                using (MySqlConnection conn = new MySqlConnection(connectionString))
+                {
+                    var result = conn.Query<string>(string.Format("SELECT subject FROM gnjoy.game where gametype='{0}'",GameId)).FirstOrDefault();
+                }
+            }
+            catch (Exception ex) {
+                throw ex;
+            }
+            return null;
         }
 
     }

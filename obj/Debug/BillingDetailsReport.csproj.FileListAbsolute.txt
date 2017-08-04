@@ -6,3 +6,6 @@ D:\Project\BillingDetailsReport\obj\Debug\BillingDetailsReport.exe
 D:\Project\BillingDetailsReport\obj\Debug\BillingDetailsReport.pdb
 D:\Project\BillingDetailsReport\bin\Debug\Dapper.dll
 D:\Project\BillingDetailsReport\bin\Debug\Dapper.xml
+D:\Project\BillingDetailsReport\bin\Debug\EPPlus.dll
+D:\Project\BillingDetailsReport\bin\Debug\EPPlus.xml
+D:\Project\BillingDetailsReport\bin\Debug\MySql.Data.dll
