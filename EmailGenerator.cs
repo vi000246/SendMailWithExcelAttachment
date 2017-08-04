@@ -16,11 +16,11 @@ namespace BillingDetailsReport
         public void SendMail() {
             using (SmtpClient mySmtp = new SmtpClient()) {
                 //設定smtp帳密
-                mySmtp.Credentials = new System.Net.NetworkCredential("vi000246", "uish2014");
-                mySmtp.Port = 587;
-                mySmtp.Host = "smtp.gmail.com"; //SMTP主機名稱
+                mySmtp.Credentials = new System.Net.NetworkCredential("gnjoytw", "ixjnrsi@366");
+                mySmtp.Port = 25;
+                mySmtp.Host = "mail.gravity.co.kr"; //SMTP主機名稱
                 mySmtp.DeliveryMethod = SmtpDeliveryMethod.Network;
-                //mySmtp.UseDefaultCredentials = false;
+                mySmtp.UseDefaultCredentials = false;
                 mySmtp.EnableSsl = true;    //開啟SSL驗證
                 //信件內容
                 string pcontect = ConfigurationManager.AppSettings["EmailContent"];
