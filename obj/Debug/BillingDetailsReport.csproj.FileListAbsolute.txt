@@ -1,0 +1,8 @@
+D:\Project\BillingDetailsReport\bin\Debug\BillingDetailsReport.exe.config
+D:\Project\BillingDetailsReport\bin\Debug\BillingDetailsReport.exe
+D:\Project\BillingDetailsReport\bin\Debug\BillingDetailsReport.pdb
+D:\Project\BillingDetailsReport\obj\Debug\BillingDetailsReport.csprojResolveAssemblyReference.cache
+D:\Project\BillingDetailsReport\obj\Debug\BillingDetailsReport.exe
+D:\Project\BillingDetailsReport\obj\Debug\BillingDetailsReport.pdb
+D:\Project\BillingDetailsReport\bin\Debug\Dapper.dll
+D:\Project\BillingDetailsReport\bin\Debug\Dapper.xml
