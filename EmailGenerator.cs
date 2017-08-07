@@ -13,12 +13,24 @@ namespace BillingDetailsReport
     /// </summary>
     public class EmailGenerator
     {
+        private bool DebugMode = false;
         public void SendMail() {
             using (SmtpClient mySmtp = new SmtpClient()) {
+                string Account = "gnjoytw";
+                string password = "ixjnrsi@366";
+                string host = "mail.gravity.co.kr";
+                int port = 25;
+                if (DebugMode)
+                {
+                    Account = "vi000246@hotmail.com";
+                    password = "R4BamhAZQv3j";
+                    host = "mail.smtp2go.com";
+                    port = 2525;
+                }
                 //設定smtp帳密
-                mySmtp.Credentials = new System.Net.NetworkCredential("gnjoytw", "ixjnrsi@366");
-                mySmtp.Port = 25;
-                mySmtp.Host = "mail.gravity.co.kr"; //SMTP主機名稱
+                mySmtp.Credentials = new System.Net.NetworkCredential(Account, password);
+                mySmtp.Port = port;
+                mySmtp.Host = host; //SMTP主機名稱
                 mySmtp.DeliveryMethod = SmtpDeliveryMethod.Network;
                 mySmtp.UseDefaultCredentials = false;
                 mySmtp.EnableSsl = true;    //開啟SSL驗證

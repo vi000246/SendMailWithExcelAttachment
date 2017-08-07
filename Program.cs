@@ -13,8 +13,9 @@ namespace BillingDetailsReport
         {
             try
             {
+                Console.Write("Start!");
                 new EmailGenerator().SendMail();
-                Console.Write("執行完畢");
+                Console.Write("The process has been complete.See log");
             }
             catch (Exception ex) {
                 Console.Write(ex.Message);
