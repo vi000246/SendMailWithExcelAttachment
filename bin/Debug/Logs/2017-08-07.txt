@@ -1,0 +1,152 @@
+2017-08-07 10:51:33.7829 | INFO | BillingDetailsReport.Program | 程式開始執行 
+
+2017-08-07 10:53:21.6127 | INFO | BillingDetailsReport.Program | 程式開始執行 
+
+2017-08-07 10:56:13.2501 | INFO | BillingDetailsReport.Program | 程式開始執行 
+
+2017-08-07 10:58:57.3753 | INFO | BillingDetailsReport.Program | 程式開始執行 
+
+2017-08-07 11:00:42.1233 | ERROR | BillingDetailsReport.Program | 發生錯誤: 作業逾時。 
+
+2017-08-07 11:16:27.2130 | INFO | BillingDetailsReport.Program | >>>>>程式開始執行<<<<< 
+
+2017-08-07 11:16:27.3530 | INFO | BillingDetailsReport.EmailGenerator | 收件者: vi000246@hotmail.com 
+
+2017-08-07 11:16:27.3600 | INFO | BillingDetailsReport.EmailGenerator | 信件標題: 【Gravity】201707儲值明細 
+
+2017-08-07 11:16:42.1904 | ERROR | BillingDetailsReport.EmailGenerator | 信件發送失敗: 傳送郵件失敗。 
+
+2017-08-07 11:16:42.1904 | INFO | BillingDetailsReport.Program | >>>>>程式結束<<<<< 
+
+2017-08-07 11:20:37.9646 | INFO | BillingDetailsReport.Program | >>>>>程式開始執行<<<<< 
+
+2017-08-07 11:20:38.0596 | INFO | BillingDetailsReport.EmailGenerator | 收件者: vi000246@hotmail.com 
+
+2017-08-07 11:20:38.0666 | INFO | BillingDetailsReport.EmailGenerator | 信件標題: 【Gravity】201707儲值明細 
+
+2017-08-07 11:20:42.7085 | INFO | BillingDetailsReport.EmailGenerator | Excel檔檔名: 201707-20170807.xlsx 
+
+2017-08-07 11:20:43.9243 | ERROR | BillingDetailsReport.EmailGenerator | 信件發送失敗: SMTP 伺服器需要安全連接，或用戶端未經驗證。 伺服器回應為: 5.5.1 Authentication Required. Learn more at 
+
+2017-08-07 11:20:43.9243 | INFO | BillingDetailsReport.Program | >>>>>程式結束<<<<< 
+
+2017-08-07 11:29:05.8894 | INFO | BillingDetailsReport.Program | >>>>>程式開始執行<<<<< 
+
+2017-08-07 11:29:05.9924 | INFO | BillingDetailsReport.EmailGenerator | 收件者: vi000246@hotmail.com 
+
+2017-08-07 11:29:06.0004 | INFO | BillingDetailsReport.EmailGenerator | 信件標題: 【Gravity】201707儲值明細 
+
+2017-08-07 11:29:06.0194 | INFO | BillingDetailsReport.ExcelGenerater | 撈取的遊戲編號: ML 
+
+2017-08-07 11:29:06.1044 | INFO | BillingDetailsReport.ExcelGenerater | 撈取BillingLog指定的OtherDate月份:2017/7 
+
+2017-08-07 11:29:09.2819 | INFO | BillingDetailsReport.ExcelGenerater | 夢幻龍族Online 的資料筆數: 4810 
+
+2017-08-07 11:29:10.1159 | INFO | BillingDetailsReport.ExcelGenerater | 備份的Excel檔路徑: ExcelBackup/201707-20170807.xlsx 
+
+2017-08-07 11:29:10.5122 | INFO | BillingDetailsReport.EmailGenerator | Excel檔檔名: 201707-20170807.xlsx 
+
+2017-08-07 11:29:11.3889 | ERROR | BillingDetailsReport.EmailGenerator | 信件發送失敗: SMTP 伺服器需要安全連接，或用戶端未經驗證。 伺服器回應為: 5.5.1 Authentication Required. Learn more at 
+
+2017-08-07 11:29:11.3889 | INFO | BillingDetailsReport.Program | >>>>>程式結束<<<<< 
+
+2017-08-07 11:29:48.8027 | INFO | BillingDetailsReport.Program | >>>>>程式開始執行<<<<< 
+
+2017-08-07 11:29:48.9057 | INFO | BillingDetailsReport.EmailGenerator | 收件者: vi000246@hotmail.com 
+
+2017-08-07 11:29:48.9127 | INFO | BillingDetailsReport.EmailGenerator | 信件標題: 【Gravity】201707儲值明細 
+
+2017-08-07 11:29:48.9397 | INFO | BillingDetailsReport.ExcelGenerater | 撈取的遊戲編號: ML 
+
+2017-08-07 11:29:49.0097 | INFO | BillingDetailsReport.ExcelGenerater | 撈取BillingLog指定的OtherDate月份:2017/7 
+
+2017-08-07 11:29:52.4326 | INFO | BillingDetailsReport.ExcelGenerater | 夢幻龍族Online 的資料筆數: 4810 
+
+2017-08-07 11:29:53.2639 | INFO | BillingDetailsReport.ExcelGenerater | 備份的Excel檔路徑: ExcelBackup/201707-20170807.xlsx 
+
+2017-08-07 11:29:53.6495 | INFO | BillingDetailsReport.EmailGenerator | Excel檔檔名: 201707-20170807.xlsx 
+
+2017-08-07 11:29:54.5099 | ERROR | BillingDetailsReport.EmailGenerator | 信件發送失敗: SMTP 伺服器需要安全連接，或用戶端未經驗證。 伺服器回應為: 5.5.1 Authentication Required. Learn more at 
+
+2017-08-07 11:29:54.5099 | INFO | BillingDetailsReport.Program | >>>>>程式結束<<<<< 
+
+2017-08-07 11:32:29.7989 | INFO | BillingDetailsReport.Program | >>>>>程式開始執行<<<<< 
+
+2017-08-07 11:32:29.9044 | INFO | BillingDetailsReport.EmailGenerator | 收件者: vi000246@hotmail.com 
+
+2017-08-07 11:32:29.9114 | INFO | BillingDetailsReport.EmailGenerator | 信件標題: 【Gravity】201707儲值明細 
+
+2017-08-07 11:32:29.9319 | INFO | BillingDetailsReport.ExcelGenerater | 撈取的遊戲編號: ML 
+
+2017-08-07 11:32:30.0069 | INFO | BillingDetailsReport.ExcelGenerater | 撈取BillingLog指定的OtherDate月份:2017/7 
+
+2017-08-07 11:32:33.2616 | INFO | BillingDetailsReport.ExcelGenerater | 夢幻龍族Online 的資料筆數: 4810 
+
+2017-08-07 11:32:34.0991 | INFO | BillingDetailsReport.ExcelGenerater | 備份的Excel檔路徑: ExcelBackup/201707-20170807.xlsx 
+
+2017-08-07 11:32:34.4956 | INFO | BillingDetailsReport.EmailGenerator | Excel檔檔名: 201707-20170807.xlsx 
+
+2017-08-07 11:32:34.9851 | ERROR | BillingDetailsReport.EmailGenerator | 信件發送失敗: SMTP 伺服器需要安全連接，或用戶端未經驗證。 伺服器回應為: 5.7.0 Must issue a STARTTLS command first. l66sm12679117pfb.107 - gsmtp 
+
+2017-08-07 11:32:34.9851 | INFO | BillingDetailsReport.Program | >>>>>程式結束<<<<< 
+
+2017-08-07 11:36:04.4153 | INFO | BillingDetailsReport.Program | >>>>>程式開始執行<<<<< 
+
+2017-08-07 11:36:04.5163 | INFO | BillingDetailsReport.EmailGenerator | 收件者: vi000246@hotmail.com 
+
+2017-08-07 11:36:04.5163 | INFO | BillingDetailsReport.EmailGenerator | 信件標題: 【Gravity】201707儲值明細 
+
+2017-08-07 11:36:04.5513 | INFO | BillingDetailsReport.ExcelGenerater | 撈取的遊戲編號: ML 
+
+2017-08-07 11:36:04.6443 | INFO | BillingDetailsReport.ExcelGenerater | 撈取BillingLog指定的OtherDate月份:2017/7 
+
+2017-08-07 11:36:07.9076 | INFO | BillingDetailsReport.ExcelGenerater | 夢幻龍族Online 的資料筆數: 4810 
+
+2017-08-07 11:36:08.7239 | INFO | BillingDetailsReport.ExcelGenerater | 備份的Excel檔路徑: ExcelBackup/201707-20170807.xlsx 
+
+2017-08-07 11:36:09.1100 | INFO | BillingDetailsReport.EmailGenerator | Excel檔檔名: 201707-20170807.xlsx 
+
+2017-08-07 11:36:10.7426 | ERROR | BillingDetailsReport.EmailGenerator | 信件發送失敗: SMTP 伺服器需要安全連接，或用戶端未經驗證。 伺服器回應為: 5.5.1 Authentication Required. Learn more at 
+
+2017-08-07 11:36:10.7426 | INFO | BillingDetailsReport.Program | >>>>>程式結束<<<<< 
+
+2017-08-07 11:37:55.1577 | INFO | BillingDetailsReport.Program | >>>>>程式開始執行<<<<< 
+
+2017-08-07 11:38:45.8206 | INFO | BillingDetailsReport.EmailGenerator | 收件者: vi000246@hotmail.com 
+
+2017-08-07 11:38:45.8206 | INFO | BillingDetailsReport.EmailGenerator | 信件標題: 【Gravity】201707儲值明細 
+
+2017-08-07 11:38:45.8456 | INFO | BillingDetailsReport.ExcelGenerater | 撈取的遊戲編號: ML 
+
+2017-08-07 11:38:45.9061 | INFO | BillingDetailsReport.ExcelGenerater | 撈取BillingLog指定的OtherDate月份:2017/7 
+
+2017-08-07 11:38:49.1451 | INFO | BillingDetailsReport.ExcelGenerater | 夢幻龍族Online 的資料筆數: 4810 
+
+2017-08-07 11:38:49.9571 | INFO | BillingDetailsReport.ExcelGenerater | 備份的Excel檔路徑: ExcelBackup/201707-20170807.xlsx 
+
+2017-08-07 11:38:50.3433 | INFO | BillingDetailsReport.EmailGenerator | Excel檔檔名: 201707-20170807.xlsx 
+
+2017-08-07 11:38:51.2569 | ERROR | BillingDetailsReport.EmailGenerator | 信件發送失敗: SMTP 伺服器需要安全連接，或用戶端未經驗證。 伺服器回應為: 5.5.1 Authentication Required. Learn more at 
+
+2017-08-07 11:38:51.2569 | INFO | BillingDetailsReport.Program | >>>>>程式結束<<<<< 
+
+2017-08-07 11:41:42.6660 | INFO | BillingDetailsReport.Program | >>>>>程式開始執行<<<<< 
+
+2017-08-07 11:41:42.8010 | INFO | BillingDetailsReport.EmailGenerator | 收件者: vi000246@hotmail.com 
+
+2017-08-07 11:41:42.8010 | INFO | BillingDetailsReport.EmailGenerator | 信件標題: 【Gravity】201707儲值明細 
+
+2017-08-07 11:41:42.8320 | INFO | BillingDetailsReport.EmailGenerator | Excel檔檔名: 201707-20170807.xlsx 
+
+2017-08-07 11:41:42.8690 | INFO | BillingDetailsReport.ExcelGenerater | 撈取的遊戲編號: ML 
+
+2017-08-07 11:41:42.9725 | INFO | BillingDetailsReport.ExcelGenerater | 撈取BillingLog指定的OtherDate月份:2017/7 
+
+2017-08-07 11:41:46.2523 | INFO | BillingDetailsReport.ExcelGenerater | 夢幻龍族Online 的資料筆數: 4810 
+
+2017-08-07 11:41:47.0718 | INFO | BillingDetailsReport.ExcelGenerater | 備份的Excel檔路徑: ExcelBackup/201707-20170807.xlsx 
+
+2017-08-07 11:41:57.6892 | ERROR | BillingDetailsReport.EmailGenerator | 信件發送失敗: 傳送郵件失敗。 
+
+2017-08-07 11:41:57.6892 | INFO | BillingDetailsReport.Program | >>>>>程式結束<<<<< 
+

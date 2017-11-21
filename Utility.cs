@@ -20,10 +20,10 @@ namespace BillingDetailsReport
             {
                 int year = 0;
                 if (!int.TryParse(ConfigurationManager.AppSettings["Year"], out year))
-                    throw new ArgumentException("config中的year參數必須為數字");
+                    throw new ArgumentException("The \"Year\" parameter in config file must be integer");
                 int month = 0;
                 if (!int.TryParse(ConfigurationManager.AppSettings["Month"], out month))
-                    throw new ArgumentException("config中的month參數必須為數字");
+                    throw new ArgumentException("The \"Month\" parameter in config file must be integer");
 
                 //如果config檔沒指定年月 就預設撈取上個月的資料
                 if (year == 0 && month == 0)
@@ -32,7 +32,7 @@ namespace BillingDetailsReport
                     month = (DateTime.Now.Month - 1);
                 }
                 if (year == 0 || month == 0)
-                    throw new ArgumentException("config中的year和month必須皆為0，或皆不為0");
+                    throw new ArgumentException("The parameter \"Year\" and \"Month\" in config file must both are  0 or both are not 0");
 
                 return new DateTime(year, month, 1);
             }

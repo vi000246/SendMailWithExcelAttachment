@@ -4,23 +4,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Configuration;
+using NLog;
 
 namespace BillingDetailsReport
 {
     class Program
     {
+        private static Logger logger = NLog.LogManager.GetCurrentClassLogger();
         static void Main(string[] args)
         {
+            
             try
             {
-                Console.Write("Start!");
+                Console.WriteLine("Start!");
+                logger.Info(">>>>>>>Process Start!!<<<<<<<");
                 new EmailGenerator().SendMail();
-                Console.Write("The process has been complete.See log");
+                Console.WriteLine("The process has been complete.See log");
+                logger.Info(">>>>>>>Process complete<<<<<<<");
             }
             catch (Exception ex) {
-                Console.Write(ex.Message);
+                Console.WriteLine(ex.Message);
+                logger.Error("Error occur: "+ex.Message);
             }
-            Console.ReadLine();
         }
     }
 }

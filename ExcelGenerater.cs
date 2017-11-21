@@ -1,4 +1,5 @@
-﻿using OfficeOpenXml;
+﻿using NLog;
+using OfficeOpenXml;
 using OfficeOpenXml.Style;
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,7 @@ namespace BillingDetailsReport
     /// </summary>
     public class ExcelGenerater
     {
+        private static Logger logger = NLog.LogManager.GetCurrentClassLogger();
         private DB db = new DB();
         private Utility utility = new Utility();
         /// <summary>
@@ -28,13 +30,17 @@ namespace BillingDetailsReport
 
             //取得要撈取的遊戲編號
             string configGameID = ConfigurationManager.AppSettings["GameID"];
+            logger.Info("The specified query condition in BillingLog's gameID in : " + configGameID);
             if (string.IsNullOrEmpty(configGameID))
-                throw new ArgumentException("config的GameID不得為空");
+                throw new ArgumentException("The parameter \"GameID\" in config file cannot be empty");
             string[] GameIDs = configGameID.Split(',');
             
 
             using (ExcelPackage pck = new ExcelPackage(outputStream))
             {
+                DateTime configDate = new Utility().GetConfigYearMonth();
+                logger.Info(string.Format("The specified query condition in BillingLog's OtherDate is:{0}/{1}", configDate.Year,configDate.Month));
+
                 foreach (var ID in GameIDs)
                 {
                     string SheetName = db.GetGameNameById(ID);
@@ -43,6 +49,7 @@ namespace BillingDetailsReport
                         SheetName = ID;
                     //取得儲值資料
                     var data = db.GetBillingDataByGame(ID);
+                    logger.Info(ID+"'s data count: "+data.Count());
 
                     //加入一個Sheet
                     pck.Workbook.Worksheets.Add(SheetName);
@@ -93,6 +100,8 @@ namespace BillingDetailsReport
                         //刪除檔案
                         File.Delete(SavePath);
                     }
+
+                    logger.Info("Backup Excel path: "+ SavePath);
 
                     //建立檔案串流
                     FileStream OutputFileStream = new FileStream(SavePath, FileMode.Create, FileAccess.Write, FileShare.ReadWrite);

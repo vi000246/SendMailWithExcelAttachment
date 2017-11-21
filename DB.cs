@@ -7,6 +7,7 @@ using System.Data.SqlClient;
 using System.Configuration;
 using Dapper;
 using MySql.Data.MySqlClient;
+using NLog;
 
 namespace BillingDetailsReport
 {
@@ -15,6 +16,7 @@ namespace BillingDetailsReport
     /// </summary>
     public class DB
     {
+        private static Logger logger = NLog.LogManager.GetCurrentClassLogger();
         //撈取儲值資料的SQL
         private static readonly string SQLQuery = @"select L.OrderIdGN , L.OrderIdOther , L.GNId ,convert(varchar,L.OrderDate, 120) OrderDate,convert(varchar,L.OtherDate, 120) OtherDate, convert(varchar,L.AddGPDate, 120)AddGPDate
                                                     , L.PayWay2
