@@ -21,9 +21,9 @@ namespace BillingDetailsReport
                 using (SmtpClient mySmtp = new SmtpClient())
                 {
                     mySmtp.SendCompleted += new SendCompletedEventHandler(SendCompleted);
-                    string Account = "gnjoytw";
+                    string Account = "gnjoytw@gravity.co.kr";
                     string password = "ixjnrsi@366";
-                    string host = "mail.gravity.co.kr";
+                    string host = "gravity-co-kr.mail.protection.outlook.com";
                     int port = 25;
                     //設定smtp帳密
                     mySmtp.Credentials = new System.Net.NetworkCredential(Account, password);
@@ -31,7 +31,7 @@ namespace BillingDetailsReport
                     mySmtp.Host = host; //SMTP主機名稱
                     mySmtp.DeliveryMethod = SmtpDeliveryMethod.Network;
                     mySmtp.UseDefaultCredentials = false;
-                    mySmtp.EnableSsl = true;    //開啟SSL驗證
+                    mySmtp.EnableSsl = false;    //開啟SSL驗證
                                                 //信件內容
                     string pcontect = ConfigurationManager.AppSettings["EmailContent"];
                     //設定mail內容

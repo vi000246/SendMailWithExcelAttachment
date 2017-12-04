@@ -1,0 +1,102 @@
+2017-12-04 16:27:15.1548 | INFO | BillingDetailsReport.Program | >>>>>>>Process Start!!<<<<<<< 
+
+2017-12-04 16:27:15.2223 | INFO | BillingDetailsReport.EmailGenerator | Email recevier: vi000246@hotmail.com 
+
+2017-12-04 16:27:15.2223 | INFO | BillingDetailsReport.EmailGenerator | Email title: 【Gravity】201711儲值明細 
+
+2017-12-04 16:27:15.2223 | INFO | BillingDetailsReport.EmailGenerator | Attached Excel fileName: 201711-20171204.xlsx 
+
+2017-12-04 16:27:15.2498 | INFO | BillingDetailsReport.ExcelGenerater | The specified query condition in BillingLog's gameID in : ML,RO1,ROWEB 
+
+2017-12-04 16:27:15.2728 | INFO | BillingDetailsReport.ExcelGenerater | The specified query condition in BillingLog's OtherDate is:2017/11 
+
+2017-12-04 16:27:19.0119 | INFO | BillingDetailsReport.ExcelGenerater | ML's data count: 400 
+
+2017-12-04 16:27:34.1566 | INFO | BillingDetailsReport.ExcelGenerater | RO1's data count: 26754 
+
+2017-12-04 16:27:42.5561 | INFO | BillingDetailsReport.ExcelGenerater | ROWEB's data count: 3337 
+
+2017-12-04 16:27:43.0486 | INFO | BillingDetailsReport.ExcelGenerater | Backup Excel path: ExcelBackup/201711-20171204.xlsx 
+
+2017-12-04 16:27:52.6632 | ERROR | BillingDetailsReport.EmailGenerator | Failed to send Email: 無法使用信箱。 伺服器回應為: 5.7.64 TenantAttribution; Relay Access Denied [SL2KOR01FT004.eop-kor01.prod.protection.outlook.com] 
+
+2017-12-04 16:27:52.6632 | INFO | BillingDetailsReport.Program | >>>>>>>Process complete<<<<<<< 
+
+2017-12-04 17:06:43.2222 | INFO | BillingDetailsReport.Program | >>>>>>>Process Start!!<<<<<<< 
+
+2017-12-04 17:06:43.4482 | INFO | BillingDetailsReport.EmailGenerator | Email recevier: vi000246@hotmail.com 
+
+2017-12-04 17:06:43.4482 | INFO | BillingDetailsReport.EmailGenerator | Email title: 【Gravity】201711儲值明細 
+
+2017-12-04 17:06:43.4592 | INFO | BillingDetailsReport.EmailGenerator | Attached Excel fileName: 201711-20171204.xlsx 
+
+2017-12-04 17:06:43.4822 | INFO | BillingDetailsReport.ExcelGenerater | The specified query condition in BillingLog's gameID in : ML,RO1,ROWEB,PB 
+
+2017-12-04 17:06:43.5367 | INFO | BillingDetailsReport.ExcelGenerater | The specified query condition in BillingLog's OtherDate is:2017/11 
+
+2017-12-04 17:06:44.7912 | INFO | BillingDetailsReport.ExcelGenerater | ML's data count: 400 
+
+2017-12-04 17:06:48.4700 | INFO | BillingDetailsReport.ExcelGenerater | RO1's data count: 26754 
+
+2017-12-04 17:06:53.2462 | INFO | BillingDetailsReport.ExcelGenerater | ROWEB's data count: 3337 
+
+2017-12-04 17:06:54.1063 | INFO | BillingDetailsReport.ExcelGenerater | PB's data count: 527 
+
+2017-12-04 17:06:54.1703 | INFO | BillingDetailsReport.ExcelGenerater | Backup Excel path: ExcelBackup/201711-20171204.xlsx 
+
+2017-12-04 17:07:02.5421 | ERROR | BillingDetailsReport.EmailGenerator | Failed to send Email: 無法使用信箱。 伺服器回應為: 5.7.64 TenantAttribution; Relay Access Denied [SL2KOR01FT901.eop-kor01.prod.protection.outlook.com] 
+
+2017-12-04 17:07:02.5421 | INFO | BillingDetailsReport.Program | >>>>>>>Process complete<<<<<<< 
+
+2017-12-04 17:39:45.4240 | INFO | BillingDetailsReport.Program | >>>>>>>Process Start!!<<<<<<< 
+
+2017-12-04 17:39:45.4575 | INFO | BillingDetailsReport.EmailGenerator | Email recevier: vi000246@hotmail.com 
+
+2017-12-04 17:39:45.4575 | INFO | BillingDetailsReport.EmailGenerator | Email title: 【Gravity】201711儲值明細 
+
+2017-12-04 17:39:45.4575 | INFO | BillingDetailsReport.EmailGenerator | Attached Excel fileName: 201711-20171204.xlsx 
+
+2017-12-04 17:39:45.4795 | INFO | BillingDetailsReport.ExcelGenerater | The specified query condition in BillingLog's gameID in : ML,RO1,ROWEB,PB 
+
+2017-12-04 17:39:45.5010 | INFO | BillingDetailsReport.ExcelGenerater | The specified query condition in BillingLog's OtherDate is:2017/11 
+
+2017-12-04 17:39:46.6520 | INFO | BillingDetailsReport.ExcelGenerater | ML's data count: 400 
+
+2017-12-04 17:39:50.5081 | INFO | BillingDetailsReport.ExcelGenerater | RO1's data count: 26754 
+
+2017-12-04 17:39:55.1520 | INFO | BillingDetailsReport.ExcelGenerater | ROWEB's data count: 3337 
+
+2017-12-04 17:39:56.1144 | INFO | BillingDetailsReport.ExcelGenerater | PB's data count: 527 
+
+2017-12-04 17:39:56.1795 | INFO | BillingDetailsReport.ExcelGenerater | Backup Excel path: ExcelBackup/201711-20171204.xlsx 
+
+2017-12-04 17:40:04.9226 | ERROR | BillingDetailsReport.EmailGenerator | Failed to send Email: 無法使用信箱。 伺服器回應為: 5.7.64 TenantAttribution; Relay Access Denied [SL2KOR01FT900.eop-kor01.prod.protection.outlook.com] 
+
+2017-12-04 17:40:04.9251 | INFO | BillingDetailsReport.Program | >>>>>>>Process complete<<<<<<< 
+
+2017-12-04 17:40:59.5947 | INFO | BillingDetailsReport.Program | >>>>>>>Process Start!!<<<<<<< 
+
+2017-12-04 17:40:59.6357 | INFO | BillingDetailsReport.EmailGenerator | Email recevier: vi000246@hotmail.com 
+
+2017-12-04 17:40:59.6417 | INFO | BillingDetailsReport.EmailGenerator | Email title: 【Gravity】201711儲值明細 
+
+2017-12-04 17:40:59.6417 | INFO | BillingDetailsReport.EmailGenerator | Attached Excel fileName: 201711-20171204.xlsx 
+
+2017-12-04 17:40:59.6777 | INFO | BillingDetailsReport.ExcelGenerater | The specified query condition in BillingLog's gameID in : ML,RO1,ROWEB,PB 
+
+2017-12-04 17:40:59.7022 | INFO | BillingDetailsReport.ExcelGenerater | The specified query condition in BillingLog's OtherDate is:2017/11 
+
+2017-12-04 17:41:02.0298 | INFO | BillingDetailsReport.ExcelGenerater | ML's data count: 400 
+
+2017-12-04 17:41:06.2011 | INFO | BillingDetailsReport.ExcelGenerater | RO1's data count: 26754 
+
+2017-12-04 17:41:12.1046 | INFO | BillingDetailsReport.ExcelGenerater | ROWEB's data count: 3337 
+
+2017-12-04 17:41:13.8648 | INFO | BillingDetailsReport.ExcelGenerater | PB's data count: 527 
+
+2017-12-04 17:41:13.9418 | INFO | BillingDetailsReport.ExcelGenerater | Backup Excel path: ExcelBackup/201711-20171204.xlsx 
+
+2017-12-04 17:41:22.2538 | ERROR | BillingDetailsReport.EmailGenerator | Failed to send Email: 無法使用信箱。 伺服器回應為: 5.7.64 TenantAttribution; Relay Access Denied [SL2KOR01FT008.eop-kor01.prod.protection.outlook.com] 
+
+2017-12-04 17:41:22.2538 | INFO | BillingDetailsReport.Program | >>>>>>>Process complete<<<<<<< 
+
