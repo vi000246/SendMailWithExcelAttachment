@@ -30,8 +30,14 @@ namespace BillingDetailsReport
                 {
                     year = DateTime.Now.Year;
                     month = (DateTime.Now.Month - 1);
+                    //如果是一月 就為上一年的12月
+                    if (month == 0)
+                    {
+                        month = 12;
+                        year = year - 1;
+                    }
                 }
-                if (year == 0 || month == 0)
+                else if (year == 0 || month == 0)
                     throw new ArgumentException("The parameter \"Year\" and \"Month\" in config file must both are  0 or both are not 0");
 
                 return new DateTime(year, month, 1);
