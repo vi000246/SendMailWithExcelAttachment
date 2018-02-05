@@ -43,10 +43,11 @@ namespace BillingDetailsReport
 
                 foreach (var ID in GameIDs)
                 {
-                    string SheetName = db.GetGameNameById(ID);
+                    //string SheetName = db.GetGameNameById(ID);
                     //如果抓不到對應的遊戲中文名稱 就將GameName設為GameId
-                    if (string.IsNullOrEmpty(SheetName))
-                        SheetName = ID;
+                    //if (string.IsNullOrEmpty(SheetName))
+                    //modify by yich 2018.2.5 不用遊戲名稱當sheet name了
+                    string SheetName = ID;
                     //取得儲值資料
                     var data = db.GetBillingDataByGame(ID);
                     logger.Info(ID+"'s data count: "+data.Count());

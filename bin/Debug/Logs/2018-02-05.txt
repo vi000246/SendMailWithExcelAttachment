@@ -1,0 +1,110 @@
+2018-02-05 16:41:04.5109 | INFO | BillingDetailsReport.Program | >>>>>>>Process Start!!<<<<<<< 
+
+2018-02-05 16:41:04.5544 | INFO | BillingDetailsReport.EmailGenerator | Email recevier: vi000246@hotmail.com 
+
+2018-02-05 16:41:04.5544 | INFO | BillingDetailsReport.EmailGenerator | Email title: 【Gravity】201801儲值明細 
+
+2018-02-05 16:41:04.5544 | INFO | BillingDetailsReport.EmailGenerator | Attached Excel fileName: 201801-20180205.xlsx 
+
+2018-02-05 16:41:04.6184 | INFO | BillingDetailsReport.ExcelGenerater | The specified query condition in BillingLog's gameID in : ML,RO1,ROWEB,PB,ROS 
+
+2018-02-05 16:41:04.6434 | INFO | BillingDetailsReport.ExcelGenerater | The specified query condition in BillingLog's OtherDate is:2018/1 
+
+2018-02-05 16:41:05.6869 | INFO | BillingDetailsReport.ExcelGenerater | ML's data count: 207 
+
+2018-02-05 16:41:08.2984 | INFO | BillingDetailsReport.ExcelGenerater | RO1's data count: 17181 
+
+2018-02-05 16:41:11.6743 | INFO | BillingDetailsReport.ExcelGenerater | ROWEB's data count: 2067 
+
+2018-02-05 16:41:12.5861 | INFO | BillingDetailsReport.ExcelGenerater | PB's data count: 2430 
+
+2018-02-05 16:41:13.4959 | INFO | BillingDetailsReport.ExcelGenerater | ROS's data count: 2012 
+
+2018-02-05 16:41:13.7684 | INFO | BillingDetailsReport.ExcelGenerater | Backup Excel path: ExcelBackup/201801-20180205.xlsx 
+
+2018-02-05 16:41:16.6767 | ERROR | BillingDetailsReport.EmailGenerator | Failed to send Email: 無法使用信箱。 伺服器回應為: 5.7.64 TenantAttribution; Relay Access Denied [SL2KOR01FT007.eop-kor01.prod.protection.outlook.com] 
+
+2018-02-05 16:41:16.6767 | INFO | BillingDetailsReport.Program | >>>>>>>Process complete<<<<<<< 
+
+2018-02-05 16:45:10.8785 | INFO | BillingDetailsReport.Program | >>>>>>>Process Start!!<<<<<<< 
+
+2018-02-05 16:45:10.9150 | INFO | BillingDetailsReport.EmailGenerator | Email recevier: vi000246@hotmail.com 
+
+2018-02-05 16:45:10.9150 | INFO | BillingDetailsReport.EmailGenerator | Email title: 【Gravity】201801儲值明細 
+
+2018-02-05 16:45:10.9150 | INFO | BillingDetailsReport.EmailGenerator | Attached Excel fileName: 201801-20180205.xlsx 
+
+2018-02-05 16:45:10.9390 | INFO | BillingDetailsReport.ExcelGenerater | The specified query condition in BillingLog's gameID in : ROS 
+
+2018-02-05 16:45:10.9605 | INFO | BillingDetailsReport.ExcelGenerater | The specified query condition in BillingLog's OtherDate is:2018/1 
+
+2018-02-05 16:45:12.1670 | INFO | BillingDetailsReport.ExcelGenerater | ROS's data count: 2012 
+
+2018-02-05 16:45:12.7460 | INFO | BillingDetailsReport.ExcelGenerater | Backup Excel path: ExcelBackup/201801-20180205.xlsx 
+
+2018-02-05 16:45:14.3963 | ERROR | BillingDetailsReport.EmailGenerator | Failed to send Email: 無法使用信箱。 伺服器回應為: 5.7.64 TenantAttribution; Relay Access Denied [SL2KOR01FT008.eop-kor01.prod.protection.outlook.com] 
+
+2018-02-05 16:45:14.3963 | INFO | BillingDetailsReport.Program | >>>>>>>Process complete<<<<<<< 
+
+2018-02-05 16:45:40.7877 | INFO | BillingDetailsReport.Program | >>>>>>>Process Start!!<<<<<<< 
+
+2018-02-05 16:45:40.8272 | INFO | BillingDetailsReport.EmailGenerator | Email recevier: vi000246@hotmail.com 
+
+2018-02-05 16:45:40.8352 | INFO | BillingDetailsReport.EmailGenerator | Email title: 【Gravity】201801儲值明細 
+
+2018-02-05 16:45:40.8352 | INFO | BillingDetailsReport.EmailGenerator | Attached Excel fileName: 201801-20180205.xlsx 
+
+2018-02-05 16:45:40.8737 | INFO | BillingDetailsReport.ExcelGenerater | The specified query condition in BillingLog's gameID in : ROS 
+
+2018-02-05 16:45:40.8992 | INFO | BillingDetailsReport.ExcelGenerater | The specified query condition in BillingLog's OtherDate is:2018/1 
+
+2018-02-05 16:45:42.1607 | INFO | BillingDetailsReport.ExcelGenerater | ROS's data count: 2012 
+
+2018-02-05 16:45:42.7897 | INFO | BillingDetailsReport.ExcelGenerater | Backup Excel path: ExcelBackup/201801-20180205.xlsx 
+
+2018-02-05 16:45:45.0360 | ERROR | BillingDetailsReport.EmailGenerator | Failed to send Email: 無法使用信箱。 伺服器回應為: 5.7.64 TenantAttribution; Relay Access Denied [SL2KOR01FT015.eop-kor01.prod.protection.outlook.com] 
+
+2018-02-05 16:45:45.0360 | INFO | BillingDetailsReport.Program | >>>>>>>Process complete<<<<<<< 
+
+2018-02-05 16:47:51.6231 | INFO | BillingDetailsReport.Program | >>>>>>>Process Start!!<<<<<<< 
+
+2018-02-05 16:47:51.6591 | INFO | BillingDetailsReport.EmailGenerator | Email recevier: vi000246@hotmail.com 
+
+2018-02-05 16:47:51.6591 | INFO | BillingDetailsReport.EmailGenerator | Email title: 【Gravity】201801儲值明細 
+
+2018-02-05 16:47:51.6591 | INFO | BillingDetailsReport.EmailGenerator | Attached Excel fileName: 201801-20180205.xlsx 
+
+2018-02-05 16:47:51.6776 | INFO | BillingDetailsReport.ExcelGenerater | The specified query condition in BillingLog's gameID in : ROS 
+
+2018-02-05 16:47:51.6976 | INFO | BillingDetailsReport.ExcelGenerater | The specified query condition in BillingLog's OtherDate is:2018/1 
+
+2018-02-05 16:48:09.7839 | INFO | BillingDetailsReport.ExcelGenerater | ROS's data count: 2012 
+
+2018-02-05 17:02:08.3671 | INFO | BillingDetailsReport.Program | >>>>>>>Process Start!!<<<<<<< 
+
+2018-02-05 17:02:08.4666 | INFO | BillingDetailsReport.EmailGenerator | Email recevier: vi000246@hotmail.com 
+
+2018-02-05 17:02:08.4706 | INFO | BillingDetailsReport.EmailGenerator | Email title: 【Gravity】201801儲值明細 
+
+2018-02-05 17:02:08.4706 | INFO | BillingDetailsReport.EmailGenerator | Attached Excel fileName: 201801-20180205.xlsx 
+
+2018-02-05 17:02:08.5086 | INFO | BillingDetailsReport.ExcelGenerater | The specified query condition in BillingLog's gameID in : ML,RO1,ROWEB,PB,ROS 
+
+2018-02-05 17:02:08.5286 | INFO | BillingDetailsReport.ExcelGenerater | The specified query condition in BillingLog's OtherDate is:2018/1 
+
+2018-02-05 17:02:09.4621 | INFO | BillingDetailsReport.ExcelGenerater | ML's data count: 207 
+
+2018-02-05 17:02:11.8046 | INFO | BillingDetailsReport.ExcelGenerater | RO1's data count: 17181 
+
+2018-02-05 17:02:15.3551 | INFO | BillingDetailsReport.ExcelGenerater | ROWEB's data count: 2067 
+
+2018-02-05 17:02:16.1856 | INFO | BillingDetailsReport.ExcelGenerater | PB's data count: 2430 
+
+2018-02-05 17:02:17.0421 | INFO | BillingDetailsReport.ExcelGenerater | ROS's data count: 2012 
+
+2018-02-05 17:02:17.5721 | INFO | BillingDetailsReport.ExcelGenerater | Backup Excel path: ExcelBackup/201801-20180205.xlsx 
+
+2018-02-05 17:02:22.4711 | ERROR | BillingDetailsReport.EmailGenerator | Failed to send Email: 無法使用信箱。 伺服器回應為: 5.7.64 TenantAttribution; Relay Access Denied [SL2KOR01FT004.eop-kor01.prod.protection.outlook.com] 
+
+2018-02-05 17:02:22.4711 | INFO | BillingDetailsReport.Program | >>>>>>>Process complete<<<<<<< 
+

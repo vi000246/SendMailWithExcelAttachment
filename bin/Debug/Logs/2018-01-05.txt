@@ -1,0 +1,22 @@
+2018-01-05 12:00:32.0168 | INFO | BillingDetailsReport.Program | >>>>>>>Process Start!!<<<<<<< 
+
+2018-01-05 12:00:32.0598 | INFO | BillingDetailsReport.EmailGenerator | Email recevier: vi000246@hotmail.com 
+
+2018-01-05 12:01:08.3306 | ERROR | BillingDetailsReport.EmailGenerator | Failed to send Email: The parameter "Year" and "Month" in config file must both are  0 or both are not 0 
+
+2018-01-05 12:01:08.3306 | INFO | BillingDetailsReport.Program | >>>>>>>Process complete<<<<<<< 
+
+2018-01-05 12:12:36.0002 | INFO | BillingDetailsReport.Program | >>>>>>>Process Start!!<<<<<<< 
+
+2018-01-05 12:12:36.0287 | INFO | BillingDetailsReport.EmailGenerator | Email recevier: vi000246@hotmail.com 
+
+2018-01-05 12:12:36.0287 | INFO | BillingDetailsReport.EmailGenerator | Email title: ¡iGravity¡j201712Àx­È©ú²Ó 
+
+2018-01-05 12:12:36.0287 | INFO | BillingDetailsReport.EmailGenerator | Attached Excel fileName: 201712-20180105.xlsx 
+
+2018-01-05 12:12:36.0442 | INFO | BillingDetailsReport.ExcelGenerater | The specified query condition in BillingLog's gameID in : ML,RO1,ROWEB,PB 
+
+2018-01-05 12:12:36.0647 | INFO | BillingDetailsReport.ExcelGenerater | The specified query condition in BillingLog's OtherDate is:2017/12 
+
+2018-01-05 12:12:37.0692 | INFO | BillingDetailsReport.ExcelGenerater | ML's data count: 424 
+
